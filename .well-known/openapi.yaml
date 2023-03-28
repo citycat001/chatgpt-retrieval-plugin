@@ -1,10 +1,10 @@
 openapi: 3.0.2
 info:
-  title: Retrieval Plugin API
-  description: A retrieval API for querying and filtering documents based on natural language queries and metadata
+  title: LangChain docs API
+  description: This API lets you search for info related to langchain
   version: 1.0.0
   servers:
-    - url: https://your-app-url.com
+    - url: https://shark-app-pjp97.ondigitalocean.app/
 paths:
   /query:
     post:
